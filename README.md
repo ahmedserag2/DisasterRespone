@@ -1,6 +1,26 @@
 # Disaster Response Pipeline Project
 
-### Instructions:
+### Project Motivation:
+This project is aimed to visualize and classify disaster messages from the DisasterResponse data sets.
+
+### project phases:
+In this project there were 3 phases:
+1. build an ETL pipeline to load,clean and save data from the database
+2. buid a ML pipeline to deploy a clasification model
+3. the flask app which uses the ML model to classify messages and runs visualizations on the data set
+
+### libraries and frameworks used
+- pandas
+- sklearn
+- numpy
+- plotly
+- flask(framework)
+
+### Acknowledgments
+Udacity for making such a complete nanodegree
+figure8 for providing the datasets and making this project possible
+
+### runnning:
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
